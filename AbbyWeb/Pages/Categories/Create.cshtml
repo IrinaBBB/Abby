@@ -5,7 +5,7 @@
 <form method="post">
         @* <span class="text-danger">@Html.ValidationMessage("Custom")</span> *@
         @* <div asp-validation-summary="All" class="text-danger"></div> *@
-    <div class="mb-3">
+@*     <div class="mb-3">
         <label asp-for="Category.Name" class="form-label">Category</label>
         <input asp-for="Category.Name" class="form-control">
         <span asp-validation-for="Category.Name" class="text-danger"></span>
@@ -14,7 +14,7 @@
         <label asp-for="Category.DisplayOrder" class="form-label">Display Order</label>
         <input asp-for="Category.DisplayOrder" class="form-control">
         <span asp-validation-for="Category.DisplayOrder" class="text-danger"></span>
-    </div>
+    </div> *@
     <button type="submit" class="btn btn-primary">Create</button>
 </form>
 </div>
